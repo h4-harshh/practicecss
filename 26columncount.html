@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>column count</title>
+    <style>
+        .box1{
+            width:800px;
+            border:0px solid red;
+            column-width:200px;
+            /* column-count: 3; */
+            column-gap: 30px ;
+            /* column-rule-width: 2px;
+            column-rule-style: dashed;
+            column-rule-color:green ; */
+            column-rule:1px double blue;
+        }
+        h2{
+            column-span: all;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <h2>this heading is removed from first column using column span</h2>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, asperiores, velit sunt porro, quasi magni error illum laudantium nemo dignissimos laborum id. Hic unde iste laudantium non ex ullam tempora libero mollitia. Iste quisquam deserunt dolor ea? Similique, distinctio hic?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, asperiores, velit sunt porro, quasi magni error illum laudantium nemo dignissimos laborum id. Hic unde iste laudantium non ex ullam tempora libero mollitia. Iste quisquam deserunt dolor ea? Similique, distinctio hic?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, asperiores, velit sunt porro, quasi magni error illum laudantium nemo dignissimos laborum id. Hic unde iste laudantium non ex ullam tempora libero mollitia. Iste quisquam deserunt dolor ea? Similique, distinctio hic?
+    </div>
+</body>
+</html>

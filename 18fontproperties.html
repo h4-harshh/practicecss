@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- font properties in cascading style sheet -->
+
+<html>
+    <head>
+        <title>font properties</title>
+        <style>
+            body{
+                font-size:18px;
+                font-variant:40px;
+            }
+            #first{
+                width:700px;
+                border:2px solid black;
+                margin-bottom:40px;
+                padding:10px;
+                outline:2px solid green;
+                outline-offset: 5px;  
+                /* font-size:30px; */
+                font-size: 1em;
+                font-family:arial,verdana;
+                line-height:20px;
+                font-weight:90px;
+                font-style:italic;
+                font-variant:normal;
+            }
+            #second{
+                width:700px;
+                border:2px solid black;
+                padding:10px;
+                outline:2px solid green;
+                outline-offset: 5px;
+                font-size:1.2em;
+                line-height:35px;
+            }
+            #second   span{
+                font-size:2em;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="first">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quasi pariatur iure quidem facere, non saepe corporis reiciendis rem asperiores, enim consequuntur unde quaerat eius molestiae magnam ipsa, eveniet consequatur?
+        </div>
+        <div id="second">
+            Lorem ipsum <span>dolor sit amet <span>adipisicing </span>elit. Quis quasi pariatur iure quidem facere, non saepe corporis reiciendis rem asperiores, enim consequuntur unde quaerat eius molestiae magnam ipsa, eveniet consequatur?
+        </div>
+       
+    </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background color gradient</title>
+    <style>
+        body{
+            font-family: arial;
+            
+        }
+        #box{
+            width:800px;
+            height:300px;
+            padding:30px;
+            border:3px solid black;
+            /* background:linear-gradient(to right, red,yellow); */
+            /* background:linear-gradient(45deg,red,yellow,green,blue,indigo); */
+            /* background:linear-gradient(red,rgba(255,0,0,0)); */
+            background:repeating-linear-gradient(45deg,red,yellow 10%,green 20%);
+            
+        }
+        .box2{
+            width:800px;
+            height:300px;
+            padding:30px;
+            border:3px solid black;
+            /* background:radial-gradient(red 5%,yellow 15%,green 60%); */
+            /* background:radial-gradient(closest-side at 90% 30% ,red,yellow,green); */
+            /* background:radial-gradient(farthest-side at 10% 50% ,red,yellow,green); */
+            /* background:radial-gradient(closest-corner at 10% 10% ,red,yellow,green); */
+            /* background:radial-gradient(farthest-corner at 10% 10% ,red,yellow,green); */
+            background:repeating-radial-gradient(circle,red,yellow 50px,green 100px);
+            
+        }
+        p{
+            margin:0;
+        }
+    </style>
+</head>
+<body>
+    <h1>background color gradient</h1>
+    <div id="box">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe est culpa neque modi rerum, asperiores nisi ad cupiditate quis, voluptas iure voluptate magni error impedit explicabo accusamus reiciendis laudantium reprehenderit magnam molestias ex maiores sequi consequatur. Porro nostrum non neque eligendi rerum architecto voluptas numquam nesciunt error, facere nemo ad.;pre,Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa commodi, voluptatum debitis cum quibusdam ullam, hic necessitatibus temporibus iste omnis eos deserunt, itaque libero laudantium. Cumque quia unde non perferendis vero, ex assumenda dolores a perspiciatis iusto expedita, ipsam laudantium veniam illum, sed natus harum tempora? Suscipit necessitatibus tempora nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum obcaecati ipsum aut repudiandae animi natus magnam exercitationem ut dolore illum. Minima aspernatur quae atque impedit odio, pariatur enim perspiciatis repellat!</p>
+    </div>
+    <div class="box2">
+        <h2>radial gradient</h2>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list style properties</title>
+   <style>
+     ul{
+        border:2px solid red;
+        list-style-position: inside;
+        list-style-type:circle;
+        list-style-image: url("images/mic.png");
+
+    }
+
+    ol{
+        border:2px solid red;
+        margin-top:30px;
+        list-style:circle inside url("images/mic.png");
+    }
+   </style>
+</head>
+<body>
+    <h1>List style properties</h1>
+    <ul>
+        <li>apple</li>
+        <li>banana</li>
+        <li>orange</li>
+        <li>grapes</li>
+        <li>guavava</li>
+    </ul>
+    <ol>
+        <li>apple</li>
+        <li>banana</li>
+        <li>orange</li>
+        <li>grapes</li>
+        <li>guavava</li>
+    </ol>
+</body>
+</html>

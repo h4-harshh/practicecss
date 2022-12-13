@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word-wrap and word-break</title>
+    <style>
+        .box1{
+            width: 300px;
+            margin-bottom:10px;
+            border: 1px solid green;
+            word-wrap: break-word;
+            }
+        .box2{
+            width: 300px;
+            border: 1px solid green;
+            word-break: break-all;
+        }
+    </style>
+</head>
+<body>
+    <h1>word-wrap and word-break</h1>
+
+    <div class="box1">
+        Lorem verrrrrrrrrrrrrrrrrrryyyyyyyyyyyloooooooooooooonnnnggggggg ipsum dolor sit amet, consectetuuuuuur adipisicing elit. Accusantium aspernatur blanditiis error omnis, eaque alias est ex assumenda at consectetur, enim quos rem commodi dolores in pariatur eveniet odio aliquid?
+    </div>
+    <div class="box2">
+        Lorem ipsum dolor sit amet consectetuuuuuuuuuuur, adipisicing elit. Commodi qui facere doloremque veniam officia reprehenderit consequatur nam ducimus dolor voluptatibus.
+    </div>
+</body>
+</html>
