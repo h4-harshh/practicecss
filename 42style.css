@@ -1,0 +1,51 @@
+.outside{
+    margin-top:0;
+    border:0px solid red;
+    background: white;
+    width:1200px;
+    margin:0 auto;
+}
+body{
+    background: rgb(92, 144, 196);
+    margin:0;
+    padding:0;
+}
+.header{
+    background: rgb(190, 21, 49);
+    height:100px;
+    margin-top:0;
+}
+
+.menu{
+    background: rgb(238, 88, 88);
+
+}
+.menu li{
+    display:inline-block;
+}
+
+.menu li a{
+    display:block;
+    padding:10px 10px;
+}
+
+.content{
+    width:900px;
+    float:left;
+    text-align: justify;
+    
+}
+
+
+
+.sidebar{
+    background-color: skyblue;
+    width:300px;
+    float:right;
+}
+
+.footer{
+    background:rgb(190, 21, 49);
+    clear:both;
+}
+

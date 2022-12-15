@@ -1,0 +1,25 @@
+h1{
+    border:2px solid red;
+    width: 500px;
+}
+
+ul{
+    visibility: hidden;
+    /* display: none; */
+    visibility: visible;
+}
+
+/* table{
+    /* border:1px solid red; */
+    /* only outside border will be given by the above line */
+    /* visibility: collapse; 
+
+   
+} */
+
+.first{
+    visibility: collapse;
+}
+.second{
+    visibility: collapse;
+}
